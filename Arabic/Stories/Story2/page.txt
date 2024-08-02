@@ -1,0 +1,10 @@
+        <div class="item">
+            <img src="image/st_2_p_3.jpg">
+            <div class="content">
+                <button class="speakButton">Read Aloud</button> <!-- text-to-speech button -->
+                <div class="des">
+
+                </div>
+            </div>
+        </div>
+                     <!-- P 4-->
