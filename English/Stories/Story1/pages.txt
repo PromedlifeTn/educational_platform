@@ -1,0 +1,21 @@
+ <!--add pages-->
+                             <!-- P 9-->
+        <div class="item">
+            <img src="image/st_1_p_9.png">
+            <div class="content">
+                <button class="speakButton">Read Aloud</button> <!-- text-to-speech button -->
+                <div class="des">
+                    add text
+                </div>
+            </div>
+        </div>
+                             <!-- P 10-->
+        <div class="item">
+            <img src="image/st_1_p_10.png">
+            <div class="content">
+                <button class="speakButton">Read Aloud</button> <!-- text-to-speech button -->
+                <div class="des">
+                    add text
+                </div>
+            </div>
+        </div>
