@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<head>
+    <title>General Knowledge Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../../style_game.css">
+</head>
+<body class = "flex">
+
+    <div class = "wrapper">
+        <div class="language_div">
+            <button  id ="en" class="language_buttons"  onclick="window.location.href=''"></button>
+            <button  id ="fr" class="language_buttons" onclick="window.location.href=''"></button>
+            <button  id ="ar" class="language_buttons" onclick="window.location.href=''"></button>
+        </div>
+        <div class="quiz-container">
+            <h2>Level 2</h2>
+            <h1>Select The Correct Answer</h1>
+            <div id="score" class="score"></div> <!-- New: Display score -->
+            <div class="question" id="question"></div>
+            <ul class="options" id="options"></ul>
+
+        </div>
+    </div> 
+
+    <div id="popup-container" class="popup-top">
+            
+        <div id="popup-content">
+            <!-- Content for the correct answer popup -->
+            
+        </div>
+        <div id="popup-Image">
+            <!-- Image -->
+        </div>
+        <button onclick="closePopup()" class="close">Next Question</button>
+    </div>
+
+    <script src= "game_GN_L2.js"></script> 
+</body>
+</html>
